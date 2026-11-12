@@ -1,5 +1,10 @@
-str = "stressed"
+sentence = "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
 
-result = str[::-1]
+words = sentence.split()
+
+result = []
+
+for word in words:
+    result.append(len(word))
 
 print(result)
