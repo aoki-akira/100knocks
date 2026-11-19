@@ -5,6 +5,7 @@ words = sentence.split()
 result = []
 
 for word in words:
+    word = word.strip(".,")
     result.append(len(word))
 
 print(result)
