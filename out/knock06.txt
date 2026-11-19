@@ -1,0 +1,5 @@
+{'ar', 'se', 'gr', 'ra', 'ph', 'pa', 'ad', 'di', 'ag', 'ap', 'is'}
+{'pa', 'ar', 'ra', 'ap'}
+{'se', 'ad', 'di', 'is'}
+True
+False
