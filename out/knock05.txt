@@ -1,0 +1,2 @@
+['I a', ' am', 'am ', 'm a', ' an', 'an ', 'n N', ' NL', 'NLP', 'LPe', 'Per']
+[['I', 'am'], ['am', 'an'], ['an', 'NLPer']]
