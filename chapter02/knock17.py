@@ -1,4 +1,4 @@
-with open("chapter02/popular-names.txt", "r", encoding="unf-8") as f:
+with open("chapter02/popular-names.txt", "r", encoding="utf-8") as f:
     lines = f,readlines()
 
 names = []
