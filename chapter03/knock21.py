@@ -10,7 +10,7 @@ with gzip.open("jawiki-country.json.gz", "rt", encoding="utf-8") as f:
 
             for text_line in data["text"].splitlines():
 
-                if "Category:" in text_line:
+                if text_line.startswith("[[Category:"):
                     print(text_line)
 
             break
