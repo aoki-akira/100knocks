@@ -9,4 +9,5 @@ for line in lines:
 
 unique_names = set(names)
 
-print(len(unique_names))
+for name in unique_names:
+    print(name)
